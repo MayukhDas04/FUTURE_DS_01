@@ -1,0 +1,50 @@
+# Social Media Sentiment & Keyword Analyzer
+
+This project analyzes sentiment from social media posts and identifies trending keywords and hashtags. It uses Python libraries such as Pandas, TextBlob, NLTK, and Matplotlib for natural language processing and data visualization.
+
+## 📁 Project Structure
+
+.
+├── task1.py                        # Main Python script for sentiment and keyword analysis
+├── sentimentdataset (2).csv       # Raw dataset file (social media text + metadata)
+├── sentiment_analysis_output.csv  # Sentiment scores and labels for each post
+├── trending_keywords.csv          # Top 20 keywords with frequency counts
+└── README.md                      # Project documentation (this file)
+
+## 📌 Objective
+
+To analyze a dataset of social media posts and:
+- Clean and preprocess the text
+- Perform sentiment analysis (positive/negative/neutral)
+- Extract trending keywords
+- Visualize the results
+- Export analysis outputs for dashboard tools like Power BI
+
+## 🔧 Tools & Libraries
+
+- Python
+- Pandas
+- NLTK
+- TextBlob
+- Matplotlib
+- Seaborn
+- WordCloud
+
+## 📊 Features
+
+- Clean text by removing punctuation, HTML tags, and stopwords
+- Calculate sentiment polarity and assign sentiment categories
+- Identify trending hashtags and keywords using frequency analysis
+- Generate visualizations:
+  - Sentiment distribution bar chart
+  - Word cloud of trending keywords
+  - Average sentiment by hashtag (if present)
+
+## 📈 Output Files
+
+- `sentiment_analysis_output.csv`: Sentiment score and label per post
+- `trending_keywords.csv`: Top 20 keywords by frequency
+
+## ▶️ How to Run
+
+1. Clone the repository:
